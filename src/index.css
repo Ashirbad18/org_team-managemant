@@ -1,0 +1,80 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  color: #fff;
+}
+
+body{
+  background-color: #111;
+}
+
+
+form {  
+    width: 50%; /* Limit the width of the form */  
+    margin: 20px auto; /* Center the form */  
+    padding: 20px; /* Add some padding */  
+    border: 1px solid #ccc; /* Light gray border */  
+    border-radius: 8px; /* Rounded corners */  
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */  
+    background-color: #E8F5E9; /* Light background color */  
+  }  
+  
+  h2 {  
+    text-align: center; /* Center the heading */  
+    margin-bottom: 20px; /* Margin below the heading */  
+    color: #008080; /* Darker color for the heading */  
+  }  
+  
+  input {  
+    width: 100%; /* Full width inputs */  
+    padding: 10px; /* Padding inside the input */  
+    margin: 10px 0; /* Space between inputs */  
+    border: 1px solid #ccc; /* Light gray border */  
+    border-radius: 4px; /* Rounded corners for inputs */  
+    font-size: 16px; /* Font size for the input text */ 
+    background-color: lightgray;
+    color: black; 
+  }  
+  
+  input:focus {  
+    border-color: #007bff; /* Change border color when focused */  
+    outline: none; /* Remove default outline */  
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle glow effect */  
+  } 
+  select{
+    background-color: #f0f0f0;
+    color: #111;
+  } 
+  
+  button {  
+    width: 100%; /* Full width button */  
+    padding: 10px; /* Padding for the button */  
+    background-color: #007bff; /* Bootstrap primary color */  
+    color: white; /* Text color for the button */  
+    border: none; /* No border */  
+    border-radius: 4px; /* Rounded corners for button */  
+    font-size: 16px; /* Font size for the button text */  
+    cursor: pointer; /* Pointer cursor on hover */  
+    transition: background-color 0.3s; /* Smooth background change */  
+  }  
+  
+  button:hover {  
+    background-color: #0056b3; /* Darker blue on hover */  
+  }  
+  
+  /* Add responsiveness */  
+  @media (max-width: 480px) {  
+    form {  
+      padding: 15px; /* Adjust padding for small screens */  
+    }  
+  
+    input, button {  
+      font-size: 14px; /* Smaller font for better fit */  
+    }  
+  }
+
+
